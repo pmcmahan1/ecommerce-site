@@ -1,0 +1,56 @@
+.navbar{
+    height: 80px;
+
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 35px;
+    }
+
+    .left{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .center{
+        display: flex;
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .right{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+
+        .icons{
+            display: flex;
+            gap: 20px;
+            
+
+            .icon{
+                cursor: pointer;
+            }
+        }
+
+        .cartIcon{
+            position: relative;
+
+            span{
+                font-size: 12px;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                position: absolute;
+                right: -12px;
+                top: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+            }
+        }
+    }
+}
