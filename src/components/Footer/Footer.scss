@@ -1,3 +1,39 @@
 .footer{
-    
+    margin: 80px;
+
+    .top{
+        display: flex;
+        gap: 50px;
+
+        .item{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            text-align: justify;
+
+            h1{
+                font-size: 24px;
+                font-weight: 500;
+            }
+        }
+
+        .socials{
+            display: flex;
+            justify-content: space-evenly;
+
+            .icon{
+                cursor: pointer;
+            }
+        }
+    }
+
+
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
 }

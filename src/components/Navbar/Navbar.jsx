@@ -27,8 +27,8 @@ const Navbar = () => {
           </div>
         </div>
         <div className="center">
-          <Link className="link" to="/products/3">
-            The Candle Store
+          <Link className="link" to="/">
+            Liaboo's Candles
           </Link>
         </div>
         <div className="right">
