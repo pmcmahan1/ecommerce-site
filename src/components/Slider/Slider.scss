@@ -1,8 +1,8 @@
 .slider{
-    height: calc(90vh - 300px);
+    height: calc(80vh - 300px);
     position: relative;
     overflow: hidden;
-    margin: 0px 80px;
+    margin: 0px;
 
     
     .container{
@@ -25,7 +25,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        bottom: 70px;
+        bottom: 40px;
         gap: 50px;
     }
 
@@ -38,5 +38,6 @@
         justify-content: center;
         cursor: pointer;
         background: rgba(63, 62, 62, 0.5);
+        border-radius: 10px;
     }
 }
