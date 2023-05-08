@@ -1,29 +1,67 @@
 .footer{
-    margin: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 10px;
 
     .top{
         display: flex;
-        gap: 50px;
+        gap: 80px;
+
+        .item-l{
+            display: flex;
+            flex: 1.75 !important;
+            align-items: flex-start !important;
+            justify-content: start !important;
+        }
 
         .item{
-            flex: 1;
             display: flex;
             flex-direction: column;
             gap: 15px;
             text-align: justify;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
 
             h1{
-                font-size: 24px;
+                font-size: 32px;
                 font-weight: 500;
+            }
+
+            span{
+                cursor: pointer;
+            }
+
+            input{
+                padding: 10px 20px 8px;
+                border: none;
+                background-color: lightgray;
+                border-radius: 5px 0px 0px 5px;
+
+            }
+
+            input:focus{
+                outline: none;
+            }
+
+            button{
+                border: none;
+                margin-left: -3px;
+                padding: 10px 20px 8px;
+                cursor: pointer;
+                border-radius: 0px 5px 5px 0px;
             }
         }
 
         .socials{
             display: flex;
-            justify-content: space-evenly;
+            gap: 50px;
 
             .icon{
                 cursor: pointer;
+                color: grey;
+                font-size: 32px;
             }
         }
     }
@@ -31,7 +69,7 @@
 
 }
 
-.bottom{
+.copyright{
     display: flex;
     justify-content: center;
     align-items: center;

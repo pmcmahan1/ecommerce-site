@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
         <div className="center">
           <Link className="link" to="/">
-            Liaboo's Candles
+            Lia's Candles
           </Link>
         </div>
         <div className="right">

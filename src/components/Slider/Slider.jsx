@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './Slider.scss'
-import slider1 from './slider1.jpg'
 import slider2 from './slider2.jpg'
 import slider3 from './slider3.jpg'
+import slider1 from './slider1.jpg'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 

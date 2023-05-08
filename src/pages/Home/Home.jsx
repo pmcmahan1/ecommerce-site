@@ -2,6 +2,8 @@ import React from 'react'
 import Slider from '../../components/Slider/Slider'
 import Categories from '../../components/Categories/Categories'
 import Mission from '../../components/Mission/Mission'
+import NewProducts from '../../components/NewProducts/NewProducts'
+
 
 
 const Home = () => {
@@ -10,6 +12,7 @@ const Home = () => {
       <Slider />
       <Mission />
       <Categories />
+      <NewProducts />
     </div>
   )
 }

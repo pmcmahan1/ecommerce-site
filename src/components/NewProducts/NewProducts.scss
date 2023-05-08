@@ -1,0 +1,21 @@
+.newProducts{
+    margin: 100px 200px;
+
+    .top{
+        display: flex;
+        margin-bottom: 40px;
+
+        h1{
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+        }
+    }
+
+
+    .bottom{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+}

@@ -10,7 +10,7 @@ const Footer = () => {
     <>
       <div className="footer">
         <div className="top">
-          <div className="item">
+          <div className="item item-l">
             <h1>Join the family</h1>
             <div className="signup">
               <input type="email" placeholder="Enter your email address" />
@@ -54,8 +54,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bottom">
-        <span className="copyright">© Copyright 2023. All Rights Reserved</span>
+      <div className="copyright">
+        <span>© Copyright 2023. All Rights Reserved</span>
       </div>
     </>
   );
