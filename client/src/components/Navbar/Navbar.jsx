@@ -5,9 +5,13 @@ import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import { Link } from "react-router-dom";
 import Cart from "../Cart/Cart";
+import { useSelector } from 'react-redux'
+
 
 const Navbar = () => {
   const [open, setOpen] = useState(false)
+  const products = useSelector(state=>state.cart.products)
+
 
   return (
     <div className="navbar">
@@ -15,17 +19,7 @@ const Navbar = () => {
         <div className="left">
           <div className="item">
             <Link className="link" to="/products/1">
-              New
-            </Link>
-          </div>
-          <div className="item">
-            <Link className="link" to="/products/2">
-              Best Sellers
-            </Link>
-          </div>
-          <div className="item">
-            <Link className="link" to="/products/3">
-              All
+              Shop All
             </Link>
           </div>
         </div>
@@ -41,7 +35,7 @@ const Navbar = () => {
             <PersonOutlineIcon className="icon" />
             <div className="cartIcon" onClick={()=>setOpen(!open)}>
               <ShoppingBasketIcon className="icon" />
-              <span>0</span>
+              <span>{products.length}</span>
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ const Home = () => {
       <Slider />
       <Mission />
       <Categories />
-      <NewProducts />
+      <NewProducts type="featured"/>
     </div>
   )
 }
