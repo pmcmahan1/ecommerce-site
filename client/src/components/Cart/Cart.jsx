@@ -31,10 +31,10 @@ const Cart = () => {
         </div>
     ))}
     <div className="total">
-        <span>SUBTOTAL</span>
+        <span>Subtotal</span>
         <span>{totalPrice()}</span>
         </div>
-        <button>PROCEED TO CHECKOUT</button>
+        <button>Proceed To Checkout</button>
         <span className="reset" onClick={()=>dispatch(resetCart())}>Reset Cart</span>
     </div>
   )

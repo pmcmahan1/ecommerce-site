@@ -20,7 +20,7 @@ const Slider = () => {
 
 
     const data = [
-        slider1, slider2, slider3
+        slider2, slider1, slider3
       ];
 
   return (

@@ -77,7 +77,7 @@ const Product = () => {
             </div>
             <div className="info">
               <span>Vendor: Candle</span>
-              <span>Product Type: Floral</span>
+              <span>Product Type: Beauty</span>
               <span>Tag: Lavender, Beeswax, Natural</span>
             </div>
             <hr />

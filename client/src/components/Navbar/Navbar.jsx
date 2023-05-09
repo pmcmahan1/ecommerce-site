@@ -22,6 +22,11 @@ const Navbar = () => {
               Shop All
             </Link>
           </div>
+          <div className="item">
+            <Link className="link" to="/">
+              About Us
+            </Link>
+          </div>
         </div>
         <div className="center">
           <Link className="link" to="/">
